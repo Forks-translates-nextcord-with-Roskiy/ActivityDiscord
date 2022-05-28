@@ -1,4 +1,4 @@
-import disnake
+import nextcord as discord
 
 from .config import Request, Config
 
