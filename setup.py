@@ -7,13 +7,13 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text(encoding="utf8")
 
 setup(
-	name="DiscordActivities",
+	name="ActivityDiscord",
 	version="1.0.0",
-	author="MagMigo",
+	author="MagMigo and Roskiy",
 	description="Use discord activities with your bot!",
 	long_description=README,
 	long_description_content_type="text/markdown",
-	url="https://github.com/MagM1go/DiscordActivity",
+	url="https://github.com/Forks-translates-nextcord-with-Roskiy/ActivityDiscord",
 	packages=find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3.10",
